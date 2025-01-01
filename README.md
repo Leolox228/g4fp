@@ -4,7 +4,7 @@ This is a library for unlimited use of LLM through g4f, using a proxy
 ```
 pip install g4fp
 ```
-# Now you can pass debug (bool) and proxy (FreeProxy object) values to ClientProxy and AsyncClientProxy
+Now you can pass debug (bool) and proxy (FreeProxy object) values to ClientProxy and AsyncClientProxy
 Usage example (async):
 ```py
 import asyncio
