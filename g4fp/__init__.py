@@ -1,2 +1,1 @@
-from g4fp import ClientProxy, AsyncClientProxy
-from proxy_list import ProxyList
+from .g4fp import ClientProxy, AsyncClientProxy
