@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="g4fp",
-    version="1.1.6",
+    version="1.1.8",
     description="A library for unlimited use of LLM through g4f, using a proxy",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -12,7 +12,7 @@ setup(
     license="GPL-3.0",
     packages=find_packages(),
     install_requires=[
-        "free-proxy",
+        "free-proxy-list",
         "g4f"
     ],
     classifiers=[
